@@ -9,4 +9,5 @@ spec:
   - name: angular 
     targetPort: 30080
     port: 30080
+    nodePort: 30080  # Explicitly specify the NodePort
   type: NodePort 
